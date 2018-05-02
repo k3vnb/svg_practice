@@ -1,6 +1,28 @@
+body {
+  background-color: #ff7f00;
+}
+.green {
+  background-color: green;
+}
+.red {
+  background-color: red;
+}
+.blue {
+  background-color: blue;
+}
+.yellow {
+  background-color: yellow;
+}
+.purple {
+  background-color: purple;
+}
+.orange {
+  background-color: orange;
+}
 .container {
   padding: 4%;
-  background-color: #a5000047;
+  margin: 1% 5%;
+  background-color: white;
 }
 
 .practice .my-shape {
@@ -11,7 +33,24 @@
   fill: cornflowerblue;
   transform: scale(1.1);
 }
-
+.buttons button {
+  color: white;
+  font-size: 16px;
+  text-shadow: 1px 1px 1px black;
+  font-weight: bold;
+  height: 80px;
+  width: 80px;
+  border-radius: 50%;
+  box-shadow: 2px 2px 10px black;
+}
+.buttons button:focus {
+  outline: 0;
+  box-shadow: 2px 2px 15px black;
+}
+.buttons button:hover {
+  transform: scale(1.05);
+  padding: .1%;
+}
 .blue-eyes .eye-color {
   fill: #175282;
 }
