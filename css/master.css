@@ -1,0 +1,13 @@
+.container {
+  padding: 4%;
+  background-color: #a5000047;
+}
+
+.my-shape {
+  transition: all 1s;
+}
+
+svg:hover .my-shape {
+  fill: cornflowerblue;
+  transform: scale(1.1);
+}
