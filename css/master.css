@@ -1,5 +1,5 @@
 body {
-  background-color: #ff7f00;
+  background-color: #e4b78b;
 }
 .green {
   background-color: green;
@@ -38,16 +38,24 @@ body {
   font-size: 16px;
   text-shadow: 1px 1px 1px black;
   font-weight: bold;
+  overflow: hidden;
   height: 80px;
   width: 80px;
   border-radius: 50%;
   box-shadow: 2px 2px 10px black;
+  margin: 1%;
 }
+.buttons {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-around;
+}
+
 .buttons button:focus {
   outline: 0;
   box-shadow: 2px 2px 15px black;
 }
-.buttons button:hover {
+button:hover {
   transform: scale(1.05);
   padding: .1%;
 }
@@ -120,4 +128,31 @@ body {
 }
 .svg-container {
   perspective: 1000px;
+}
+.test-form {
+  display: flex;
+  flex-direction: column;
+}
+.test-form input {
+  margin-bottom: 5%;
+  height: 30px;
+  border: none;
+  border-bottom: 1px solid black;
+}
+.test-form button {
+  color: white;
+  background-color: #0095ff;
+  border: 1px solid #07c;
+  box-shadow: inset 0 1px 0 #66bfff;
+  height: 50px;
+  width: 80%;
+  align-self: center;
+  transition: transform 1s;
+}
+.test-form input:focus {
+  outline: 0;
+}
+.test-form button:focus {
+  outline: 0;
+  box-shadow: .5px .5px 5px #00000036;
 }
