@@ -13,3 +13,10 @@ function manageCatClasses(){
     cat.classList.remove(this.getAttribute("data-remove"));
   }
 }
+Array.from(document.querySelectorAll('Form input')).forEach(i => { i.addEventListener('invalid', () => {
+  i.dataset.touched = true
+})
+  i.addEventListener('blur', () => {
+    if (i.value !== '') i.dataset.touched = true
+  })
+})

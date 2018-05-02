@@ -143,8 +143,9 @@ button:hover {
   margin-bottom: 5%;
   height: 30px;
   border: none;
-  border-bottom: 1px solid black;
+  border-bottom: .5px solid #312d2d;
   flex: 1;
+  transition: all .5s;
 }
 .test-form button {
   color: white;
@@ -156,8 +157,21 @@ button:hover {
   align-self: center;
   transition: transform 1s;
 }
+.test-form label {
+  align-self: center;
+  font-family: "Arial Black", Gadget, sans-serif;
+  color: #1b1b25;
+  font-size: .9em;
+}
 .test-form input:focus {
   outline: 0;
+  border-bottom: 1px solid black;
+}
+.test-form input:valid {
+  border-bottom: 1px solid green;
+}
+.test-form input[data-touched]:invalid {
+  border-bottom: 1px solid red;
 }
 .test-form button:focus {
   outline: 0;
@@ -166,7 +180,7 @@ button:hover {
 .icon {
   width: 1rem;
   opacity: 0;
-  transition: all .2s;
+  transition: all .4s;
   transform: translate(-100%);
 }
 .icon path {
@@ -175,6 +189,6 @@ button:hover {
   fill: none;
 }
 .test-form-input-line input:focus + .icon {
-  transform: translate(0);
+  transform: translateX(0);
   opacity: 1;
 }
