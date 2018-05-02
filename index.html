@@ -70,8 +70,13 @@
         <h2>Fake Form</h2>
         <h4>with SVG animation</h4>
         <label class="test-form-label">Name</label>
-
-        <input type="text" placeholder="Enter your name">
+        <div class="test-form-input-line">
+          <!-- viewBox defines dimension of the drawing -->
+          <svg viewBox="0 0 20 20" class="icon">
+            <path d="M0 0 L10 10 L0 20" fill="none" stroke="black"></path>
+          </svg>
+          <input type="text" placeholder="Enter your name">        
+        </div>
         <label class="test-form-label">Pirate Name</label>
         <input type="text" placeholder="Enter your pirate name">
         <button type="button" name="button">Submit</button>
