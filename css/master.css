@@ -241,18 +241,27 @@ button:hover {
 .robot-full {
   overflow: hidden;
   background-image: url('../random-image.jpeg');
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
 }
 .robot-full h2 {
   color: white;
   text-align: center;
+  text-shadow: 1px 1px 1px black;
 }
 .robot-full .heart {
   animation: heart-beat 6s infinite;
 }
 .robot-full .overlay {
-  height: 100%;
+  margin-top: -50px;
+  height: 120%;
   width: 100%;
-  background-color: #ff000030;
+  background-color: #ffd0d085;
+}
+.robot-full svg {
+  margin-left: 5%;
+  margin-bottom: 2%;
 }
 @keyframes heart-beat {
   0% {
