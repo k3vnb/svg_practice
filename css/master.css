@@ -249,13 +249,13 @@ button:hover {
     transform: scale(1)
   }
   50% {
-    transform: scale(.995);
+    transform: scale(1.005);
   }
   51% {
     transform: scale(1)
   }
   55% {
-    transform: scale(.995);
+    transform: scale(1.005);
   }
   56% {
     transform: scale(1);
