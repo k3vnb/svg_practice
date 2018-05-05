@@ -387,3 +387,12 @@ button:hover {
   overflow: hidden;
   border-radius: 50%;
 }
+.monster-svg {
+  background-image: url('../sand.jpeg');
+  background-size: cover;
+  background-repeat: no-repeat;
+}
+.monster-overlay {
+  background-color: #ffff00c4;
+  box-shadow: inset 0 0 45px 15px white;
+}
