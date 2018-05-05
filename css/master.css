@@ -380,3 +380,10 @@ button:hover {
   align-items: center;
   background-color: #86caff;
 }
+.duck-svg {
+  border: 6px solid black;
+  width: 480px;
+  height: 480px;
+  overflow: hidden;
+  border-radius: 50%;
+}
