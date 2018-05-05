@@ -240,28 +240,57 @@ button:hover {
 }
 .robot-full {
   overflow: hidden;
+  border: 5px inset pink;
   background-image: url('../random-image.jpeg');
   background-repeat: no-repeat;
   background-size: cover;
   background-position: center;
 }
 .robot-full h2 {
-  color: white;
+  color: #ff858578;
+  font-family: "Trebuchet MS", Helvetica, sans-serif;
   text-align: center;
   text-shadow: 1px 1px 1px black;
+  animation: text-glitch 12s infinite;
 }
 .robot-full .heart {
-  animation: heart-beat 6s infinite;
+  animation: heart-beat 4s infinite;
 }
 .robot-full .overlay {
+  z-index: 9999;
   margin-top: -50px;
   height: 120%;
   width: 100%;
   background-color: #ffd0d085;
+  animation: overlay-glitch 18s infinite;
 }
 .robot-full svg {
   margin-left: 5%;
   margin-bottom: 2%;
+}
+@keyframes text-glitch {
+  0% {
+    font-family: "Lucida Sans Unicode", "Lucida Grande", sans-serif
+    text-shadow: 1px 1px 1px black;
+    margin-left: 0;
+  }
+  1% {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+    margin-left: 0;
+  }
+  11% {
+    margin-left: -5px;
+  }
+  50% {
+    text-shadow: 2px 2px 2px green;
+  }
+  99% {
+    font-family: "Trebuchet MS", Helvetica, sans-serif;
+  }
+  100% {
+    font-family: "Arial Black", Gadget, sans-serif;
+    text-shadow: 1px 1px 1px black;
+  }
 }
 @keyframes heart-beat {
   0% {
@@ -286,3 +315,38 @@ button:hover {
     transform: scale(1)
   }
 }
+@keyframes overlay-glitch {
+  0% {
+    background-color: #ffd0d085;
+  }
+  49% {
+    background-color: #ffd0d085;
+  }
+  50% {
+    background-color: #298c2285;
+  }
+  51% {
+    background-color: #d3ffd085;
+    padding: 0%;
+  }
+  52% {
+    background-color: #2c2a2dbd;
+    padding: .5%;
+  }
+  53% {
+    background-color: white;
+  }
+  54% {
+    background-color: #ffd0d085;
+    padding: 0%;
+  }
+  98% {
+    background-color: #ffd0d085;
+    margin-left: 0%;
+  }
+  99% {
+    background-color: #f5eef9bd;
+  }
+  100% {
+    background-color: #ffd0d085;
+  }
