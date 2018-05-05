@@ -1,9 +1,11 @@
 body {
-  background-color: #e4b78b;
+  background-color: #f7caff;
+}
+.container {
+  padding: 0 5%;
 }
 h2 {
   padding-top: 5%;
-  border-top: 1px solid peachpuff;
 }
 .green {
   background-color: green;
@@ -358,13 +360,23 @@ button:hover {
 .afternoon-scene {
   margin-top: 5%;
   background-position: 20% 30%;
+  overflow: hidden;
 }
 .overlay-2 {
   height: 100%;
-  width: 100%;
+  width: 95%;
+  max-width: 630px;
   padding: 1%;
-  border: 3px solid black;
+  border: 3px solid #dfef1445;
   box-shadow: inset 0 0 10px 10px #8cff07;
   background-color: #c2dc341f;
   border-radius: 50%;
+}
+.background-color-div {
+  width: 100%;
+  display: flex;
+  border-radius: 1%;
+  justify-content: center;
+  align-items: center;
+  background-color: #86caff;
 }
