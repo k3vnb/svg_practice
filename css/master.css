@@ -451,3 +451,16 @@ button:hover {
   top: 20%;
   left: 8%;
 }
+.ufo-container {
+  border: 2px solid black;
+  width: 640px;
+  height: 474px;
+  box-shadow: 0 0 20px 12px #ffffff73 inset;
+  background-image: url('https://blog.thomascookairlines.com/wp-content/uploads/2015/05/Sunny-Skies-1050x701.jpg');
+  background-size: cover;
+  background-position: right;
+  overflow: hidden;
+}
+.ufo-svg {
+  background-color: #fbe47873;
+}
