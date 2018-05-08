@@ -464,3 +464,9 @@ button:hover {
 .ufo-svg {
   background-color: #fbe47873;
 }
+.desert-night-div {
+  margin-top: 5%;
+  height: 478px;
+  width: 638px;
+  overflow: hidden;
+}
