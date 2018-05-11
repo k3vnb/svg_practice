@@ -464,9 +464,12 @@ button:hover {
 .ufo-svg {
   background-color: #fbe47873;
 }
-.desert-night-div, .walrus-container {
+.desert-night-div, .walrus-container, .plant-container {
   margin: 5% 0%;
   height: 478px;
   width: 638px;
   overflow: hidden;
+}
+.plant-container {
+  box-shadow: 3px 5px 6px #00000082;
 }
