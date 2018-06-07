@@ -1,0 +1,14 @@
+<svg width="640" height="460" xmlns="http://www.w3.org/2000/svg" xmlns:svg="http://www.w3.org/2000/svg">
+ <!-- Created with SVG-edit - http://svg-edit.googlecode.com/ -->
+ <g>
+  <title>Layer 1</title>
+  <ellipse stroke="#000000" fill="#FF0000" stroke-width="0" cx="335.67709" cy="269.95485" id="svg_1" rx="190" ry="182.49999"/>
+  <path stroke="#000000" id="svg_5" d="m230.91237,193.45487c0,0 -2.68603,-25 30.88937,-24c33.5754,1 29.54635,4 48.34858,17c18.80222,13 2.68603,4 36.26143,-10c33.5754,-14 38.94746,-34 71.17985,-1c32.23238,33 48.34858,50 51.03461,33c2.68603,-17 8.0581,-36 2.68603,-40" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffaa"/>
+  <path transform="rotate(179.2418212890625 341.23602294921875,366.33111572265625) " id="svg_6" stroke="#000000" d="m219.91237,373.45487c0,0 -2.68603,-25 30.88937,-24c33.5754,1 29.54635,4 48.34857,17c18.80223,13 2.68604,4 36.26144,-10c33.5754,-14 38.94746,-34 71.17985,-1c32.23238,33 48.34857,50 51.03461,33c2.68603,-17 8.05809,-36 2.68603,-40" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffaa"/>
+  <rect stroke="#000000" transform="rotate(-5.525489807128906 352.9267578124998,276.44763183593756) " id="svg_7" height="191.94945" width="224" y="180.4729" x="240.92675" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffaa"/>
+  <ellipse ry="117" rx="99" id="svg_2" cy="286.45487" cx="180.89932" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#ffffff"/>
+  <ellipse id="svg_3" ry="117" rx="99" cy="274.45487" cx="512.89932" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" stroke="#000000" fill="#ffffff"/>
+  <ellipse stroke="#000000" transform="rotate(-5.079608917236328 333.2545166015619,86.70107269287085) " ry="5.69761" rx="62" id="svg_9" cy="86.70108" cx="333.25453" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#ffffff"/>
+  <path stroke="#000000" transform="rotate(141.4326934814453 324.3227233886719,84.21532440185548) " id="svg_12" d="m321.69006,95.40513c0,0 0.96361,-10.90204 3.21202,-12.38869c2.24842,-1.48664 6.10284,-6.93766 6.39171,-7.16307c0.28886,-0.22541 -3.17968,-3.24342 -2.89082,-3.46883c0.28886,-0.22541 -10.24614,5.67643 -10.88854,11.12745c-0.6424,5.45102 0.6424,7.92876 0.6424,10.90204c0,2.97328 3.53323,0.99109 3.53323,0.99109z" stroke-linecap="null" stroke-linejoin="null" stroke-dasharray="null" stroke-width="0" fill="#7f0000"/>
+ </g>
+</svg>
